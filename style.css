@@ -6,6 +6,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: gray;
+}
 .highlight{
     color: orange;
 }
@@ -26,6 +32,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .btn{
     color: #fff;
@@ -33,4 +40,9 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+}
+.dream-area{
+    background-image: url("/Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
